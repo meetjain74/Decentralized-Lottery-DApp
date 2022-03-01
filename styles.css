@@ -1,0 +1,124 @@
+body {
+    background-color:floralwhite;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+        "a a a a b b b b"
+        "a a a a b b b b";
+    align-items: start;
+}
+
+.lotteryImage {
+    float: left; 
+    margin-right: 15px;
+    grid-area: a;
+}
+
+.formElement {
+    grid-area: b;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ParticipateButton {
+    background-color: #04AA6D;
+    border: none;
+    color: black;
+    padding: 10px;
+    width: 15rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 5px;  
+  }
+
+.GetWinnerButton {
+    background-color: #ffc825;
+    border: none;
+    color: black;
+    padding: 10px;
+    width: 15rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 5px;  
+}
+
+p {
+    font-size: 35px;
+    margin: 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.styled-table thead tr {
+    background-color: #04AA6D;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #04AA6D;
+}
+
+h3 {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
