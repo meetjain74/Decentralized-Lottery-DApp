@@ -15,7 +15,7 @@
  ```
  
  And we imported the following in our contract  
- `import "@chainlink/contracts/src/v0.6/VRFConsumerBase.sol";`
+ `import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";`
  
  ## UI
  
