@@ -26,3 +26,7 @@
  
  ## Contract deployed
  The contract was deployed on the address `0xfDDfD3a736F85E2C9D88599a8874E186dc8b87AD`
+
+
+## Deployed website link - 
+https://decentralized-lottery-dapp.4everland.app/
